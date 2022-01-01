@@ -14,6 +14,7 @@ import { withEmotionCache } from "@emotion/react";
 import ServerStyleContext from "./context.server";
 import ClientStyleContext from "./context.client";
 import { Layout } from "./components/Layout";
+import { theme } from "./theme"
 
 export const meta: MetaFunction = () => {
   return { title: "Remix + Chakra UI App" };
@@ -116,7 +117,7 @@ const Document = withEmotionCache(
           ))}
         </head>
         <body>
-          <ChakraProvider>
+          <ChakraProvider theme={theme}>
             {children}
           </ChakraProvider>
           <ScrollRestoration />
