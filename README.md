@@ -1,5 +1,8 @@
 # Remix with Chakra UI!
 
+All credit goes to Luc Vauvillier on the [Material UI repo](https://github.com/mui-org/material-ui/issues/30436) for the solution and Rob Gilbert on Remix's Discord for pointing me to it.
+
+
 - [Remix Docs](https://remix.run/docs)
 - [Chakra UI Docs](https://chakra-ui.com/docs/getting-started)
 
